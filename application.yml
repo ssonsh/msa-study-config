@@ -1,6 +1,8 @@
 token:
-  expiration_time: 864000000
-  secret: config_token
+  # expiration_time: 864000000
+  # secret: config_token
+  expiration_time: 7777777777
+  secret: config_token_change_#1
 
   gateway:
     ip: 10.11.6.33
