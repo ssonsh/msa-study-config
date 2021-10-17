@@ -4,3 +4,10 @@ spring:
     url: jdbc:h2:mem:testdb
     username: sa
     password: '{cipher}AQANF6uA1gN/gnUJ6yBN/SAsuuWY2xcL3/jsZ7srKsaKGgAAuyCMpNPJe6Zq0nzp+zmAyClsmmDKeBkEm6NjpkW5vvITQUD9jbwIcsOJDMMzFdNYBEuuZEqx8h2BhV/LPvoqDzV3L2fk8zUolp/2gl+ZvBQeHWZPj3CTE9pJzaUfaqL6M4q9ULr8IW6q3E6KuWj4sPW5BUQ0B/ozqR6tgYuZncMngN21bx3eyfPMAxm/8SDqHU00Tfewv8hkHkxVCadITi959SgfXK8Ot07PVDn2dxlKwX51SFaU5d0MKZMPnhn7BzumvIfb32jJ+gzuoMSjsfpdS5yl4l1UxMqraYVks5MTDrftNtqAQctfZFRFalD/vDzYjOqHwVHBQwwkCwo='
+
+token:
+  expiration_time: 864000000
+  secret: '{cipher}AQARpXh1KCqxrTO8Jd9hKr2bgpV0FAg1qq/rvPp3Lw2WJ/2lEvp9wzvYeBG6cgJoEPRlhVh2SeRlioJWqEUcTjEYMF5qBOos9Fvpfra7zU5E/dg93fByj8jDnEJyM/O2+SoOEchfmX2Qvy5bv7vLbaR6SNUgBlFdyHTK3KJqvo9MtwjUHTdws8T4dQg/Ws6319866odxDvem7O5d94c79xmmRdi3AvISwbPhbYUAaJZai2Wo12KorkJ33c8dvHFYBE070XZLBMN81sQrW9KgLxgjUt7IdHrkCp1sufy7OcHFS2BhFqC7RbkMZaVunpNPP63HtitQKqBgFUWXnXcCfzBaDwEa6h69c/eCD6USyxDxNJrEjnzugVg0/NXTMyCYB6Y='
+
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
